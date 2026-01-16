@@ -95,7 +95,7 @@ class SimpleChatbot:
         
         # Check if the input matches any patterns
         for pattern, responses in self.patterns.items():
-            if re.search(pattern, user_input, re.IGNORECASE):
+            if re.search(pattern, user_input):
                 return random.choice(responses)
         
         # If no pattern matches, return a default response
