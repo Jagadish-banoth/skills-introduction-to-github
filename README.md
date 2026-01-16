@@ -19,6 +19,41 @@ In this exercise, you will:
 3. Open a pull request
 4. Merge your pull request
 
+## 🤖 Simple Conversational Chatbot
+
+This repository also includes a **simple conversational chatbot** built with Python! It's a great example project that demonstrates:
+
+- Pattern-based conversation handling
+- Python programming basics
+- Object-oriented design
+- Interactive command-line applications
+
+### Quick Start
+
+```bash
+# Run the chatbot interactively
+python3 chatbot.py
+
+# Run tests
+python3 test_chatbot.py
+
+# See usage examples
+python3 examples.py
+```
+
+For detailed documentation, see [CHATBOT_README.md](CHATBOT_README.md).
+
+### What Can It Do?
+
+The chatbot can:
+- Respond to greetings (hi, hello, hey)
+- Answer questions about itself
+- Tell jokes
+- Respond to various conversation patterns
+- Handle sentiment (positive/negative responses)
+
+Try it out and see how it works!
+
 ### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
